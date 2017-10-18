@@ -1,1 +1,52 @@
 // Custom styles.
+body {
+    font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    height: 100%;
+}
+
+.menu .menu-item a {
+    font-size: 14px;
+}
+
+.posts-expand .post-title {
+    font-weight: 300;
+}
+
+.posts-expand .post-title-link::before {
+    height: 1px;
+}
+
+.posts-expand .post-title, .posts-expand .post-meta {
+    text-align: center;
+}
+
+.posts-expand .post-body {
+    font-size: 14px;
+}
+
+.comments {
+    margin: 60px 0px 0;
+}
+
+.footer-inner {
+    text-align: center;
+}
+
+@media(max-width: 767px) {
+    .content-wrap {
+        padding: 0;
+    }
+    .posts-expand {
+        margin: 0 15px;
+    }
+
+    .site-nav-toggle {
+        left: 5px;
+    }
+
+    .comments {
+    margin: 60px 15px 0;
+}
+}
